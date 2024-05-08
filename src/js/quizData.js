@@ -1,0 +1,310 @@
+export const animals = [
+	{
+		id: 1,
+		src: "https://upload.wikimedia.org/wikipedia/commons/d/df/Old_World_swallowtail_%28Papilio_machaon_gorganus%29_underside_Italy.jpg",
+		text: "Old World Swallowtail",
+		style: "",
+		country: "Europe",
+	},
+	{
+		id: 2,
+		src: "https://cdn.britannica.com/95/206395-050-02B81B30/Red-fox-Vulpes-vulpes.jpg",
+		text: "Red Fox",
+		style: "object-position: 30% 50%;",
+		country: "Europe",
+	},
+	{
+		id: 3,
+		src: "https://www.woodlandtrust.org.uk/media/44197/eurasian-lynx-alamy-p87y7p-agami-photo-agency.jpg",
+		text: "Lynx",
+		style: "object-position: 85% 55%; transform: scale(1.2); transform-origin: center top;",
+		country: "Europe",
+	},
+	{
+		id: 4,
+		src: "https://dinoanimals.com/wp-content/uploads/2020/07/Brown-bear1-1120x700.jpg",
+		text: "Brown Bear",
+		style: "object-position: 85% 50%; transform: scale(1.1); transform-origin: center top;",
+		country: "Europe",
+	},
+	{
+		id: 5,
+		src: "https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcR-d8yqK6c8TgAUmexR_ROQqZaGAH8NX8CNDOe0Jsj9r4sTClrSWdkhOJZ3J41eCIhk",
+		text: "Roe Deer",
+		style: "object-position: 10% 50%;",
+		country: "Europe",
+	},
+	{
+		id: 6,
+		src: "https://ptes.org/wp-content/uploads/2014/06/Badger.-Free-to-use-credit-Ben-Andrews-resized.jpg",
+		text: "Badger",
+		style: "",
+		country: "Europe",
+	},
+	{
+		id: 7,
+		src: "https://base-prod.rspb-prod.magnolia-platform.com/dam/jcr:0ef720b4-534b-45a9-85c2-f431cfd162f0/735565600-Species-Golden-Eagle-in-moorland.jpg",
+		text: "Golden Eagle",
+		style: "object-position: 70% 50%;",
+		country: "Europe",
+	},
+	{
+		id: 8,
+		src: "https://live.staticflickr.com/65535/51437887274_c9f6f5ddde_b.jpg",
+		text: "Ibex",
+		style: "object-position: 90% 50%; transform: scale(1.2); transform-origin: center center;",
+		country: "Europe",
+	},
+	{
+		id: 9,
+		src: "https://i0.wp.com/thewolfintelligencer.com/wp-content/uploads/2020/05/860-286500.jpg",
+		text: "Wolf",
+		style: "object-position: 90% 50%;",
+		country: "Europe",
+	},
+	{
+		id: 10,
+		src: "https://i.guim.co.uk/img/media/89d25a3407c5270e8a106e19856599d7660f8067/320_451_6186_3713/master/6186.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=d875778e7a20ed8166b2c43dd67e082a",
+		text: "Elephant",
+		style: "object-position: 50% 50%; transform: scale(1.1); transform-origin: center center;",
+		country: "Africa",
+	},
+	{
+		id: 11,
+		src: "https://www.cms.int/sites/default/files/species/African%20Lion%20%28C%29%20R%20Schoeman.jpg",
+		text: "Lion",
+		style: "object-position: 25% 50%;",
+		country: "Africa",
+	},
+	{
+		id: 12,
+		src: "https://i.natgeofe.com/k/edcf5a74-7b55-4c2f-82e8-6a1498d6130f/leopard-closeup_square.jpg",
+		text: "Leopard",
+		style: "object-position: 50% 50%;",
+		country: "Africa",
+	},
+	{
+		id: 13,
+		src: "https://www.savingthesurvivors.org/wp-content/uploads/2022/09/Copy-of-Buffalo.jpg",
+		text: "Buffalo",
+		style: "object-position: 45% 50%;",
+		country: "Africa",
+	},
+	{
+		id: 14,
+		src: "https://c02.purpledshub.com/uploads/sites/62/2018/06/GettyImages-105286198-0f8a4d8.jpg?webp=1&w=1200",
+		text: "Giraffe",
+		style: "object-position: 100% 50%; transform: scale(1.2); transform-origin: right center;",
+		country: "Africa",
+	},
+	{
+		id: 15,
+		src: "https://upload.wikimedia.org/wikipedia/commons/4/45/Equus_quagga_burchellii_-_Etosha%2C_2014.jpg",
+		text: "Plains Zebra",
+		style: "object-position: 80% 50%;",
+		country: "Africa",
+	},
+	{
+		id: 16,
+		src: "https://cdn.britannica.com/13/151913-120-EA90995D/Nile-crocodile-fish.jpg",
+		text: "Crocodile",
+		style: "object-position: 70% 50%;",
+		country: "Africa",
+	},
+	{
+		id: 17,
+		src: "https://media.savetherhino.org/prod/uploads/2018/05/White-Rhino-Close-Up-1.jpg",
+		text: "White Rhinoceros",
+		style: "object-position: 90% 50%;",
+		country: "Africa",
+	},
+	{
+		id: 18,
+		src: "https://files.worldwildlife.org/wwfcmsprod/images/HERO_Mountain_Gorilla_Silverback_WW22557/story_full_width/5zoaj3l0f_Mountain_Gorilla_Silverback_WW22557.jpg",
+		text: "Mountain Gorilla",
+		style: "object-position: 70% 50%;",
+		country: "Africa",
+	},
+	{
+		id: 19,
+		src: "https://upload.wikimedia.org/wikipedia/commons/d/db/Bald_eagle_about_to_fly_in_Alaska_%282016%29.jpg",
+		text: "Bald Eagle",
+		style: "object-position: 95% 50%; transform: scale(1.2); transform-origin: center center;",
+		country: "Americas",
+	},
+	{
+		id: 20,
+		src: "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRJyo2YyHozvVXOU6HODBPqxojj9RT-Lr1DS_34rCthQyNBVICYCzerfCZsWIGZgS_h",
+		text: "Grizzly Bear",
+		style: "object-position: 15% 50%;",
+		country: "Americas",
+	},
+	{
+		id: 21,
+		src: "https://media.istockphoto.com/photos/little-raccoon-on-tree-picture-id514622028?k=6&m=514622028&s=612x612&w=0&h=oa6bEuRd9EB_D72qJ5UD57dBfnLWz7onQDm6DFJSVLc=",
+		text: "Raccoon",
+		style: "object-position: 50% 50%;",
+		country: "Americas",
+	},
+	{
+		id: 22,
+		src: "https://upload.wikimedia.org/wikipedia/commons/8/8d/American_bison_k5680-1.jpg",
+		text: "Bison",
+		style: "object-position: 75% 50%;",
+		country: "Americas",
+	},
+	{
+		id: 23,
+		src: "https://c02.purpledshub.com/uploads/sites/62/2018/06/GettyImages-948712470-c1a774e.jpg",
+		text: "Coyote",
+		style: "object-position: 40% 50%; transform: scale(1.2); transform-origin: bottom center;",
+		country: "Americas",
+	},
+	{
+		id: 24,
+		src: "https://images.wagwalkingweb.com/media/care/hero/1637786499.0489905/priscilla-du-preez-6bzqonml5do-unsplash.jpg",
+		text: "Mountain Lion",
+		style: "object-position: 5% 50%; transform: scale(1.2); transform-origin: center center;",
+		country: "Americas",
+	},
+	{
+		id: 25,
+		src: "https://files.worldwildlife.org/wwfcmsprod/images/Jaguar_GPN7474/story_full_width/4q517ahb0m_Responsible_Forestry_8.10.2012_Biodiversiry_Loss_HI_7474.jpg",
+		text: "Jaguar",
+		style: "object-position: 70% 50%; transform: scale(1.2);",
+		country: "Americas",
+	},
+	{
+		id: 26,
+		src: "https://gifts.worldwildlife.org/gift-center/Images/large-species-photo/large-Three-toed-Sloth-photo.jpg",
+		text: "Sloth",
+		style: "object-position: 35% 50%;",
+		country: "Americas",
+	},
+	{
+		id: 27,
+		src: "https://c02.purpledshub.com/uploads/sites/62/2017/04/GettyImages-948712470-c1a774e.jpg",
+		text: "Tapir",
+		style: "object-position: 50% 50%;",
+		country: "Americas",
+	},
+	{
+		id: 28,
+		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Red-eyed_Tree_Frog_%28Agalychnis_callidryas%29_1.png/1200px-Red-eyed_Tree_Frog_%28Agalychnis_callidryas%29_1.png",
+		text: "Red-eyed Tree Frog",
+		style: "object-position: 50% 50%;",
+		country: "Americas",
+	},
+	{
+		id: 29,
+		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Pygocentrus_nattereri_-_Karlsruhe_Zoo_01.jpg/1200px-Pygocentrus_nattereri_-_Karlsruhe_Zoo_01.jpg",
+		text: "Red piranha",
+		style: "object-position: 50% 50%;",
+		country: "Americas",
+	},
+	{
+		id: 30,
+		src: "https://www.learnaboutnature.com/wp-content/uploads/Green-Iguana-1.jpg",
+		text: "Green iguana",
+		style: "object-position: 45% 50%;",
+		country: "Americas",
+	},
+	{
+		id: 31,
+		src: "https://live.staticflickr.com/4049/4388108193_94f13022aa_b.jpg",
+		text: "Bengal Tiger",
+		style: "object-position: 50% 50%;",
+		country: "Asia"
+	},
+	{
+		id: 32,
+		src: "https://imgs.mongabay.com/wp-content/uploads/sites/20/2015/11/03132138/1117-giant-panda-1200.jpg",
+		text: "Giant Panda",
+		style: "object-position: 95% 50%;",
+		country: "Asia"
+	},
+	{
+		id: 33,
+		src: "https://upload.wikimedia.org/wikipedia/commons/9/98/Elephas_maximus_%28Bandipur%29.jpg",
+		text: "Asian Elephant",
+		style: "object-position: 50% 50%;",
+		country: "Asia"
+	},
+	{
+		id: 34,
+		src: "https://images.ctfassets.net/cnu0m8re1exe/4NJMEWXqdH8QyL4cSbDE1M/c2a6efb3d46269d404cbc1318c463ed4/Untitled_design_-_2023-05-26T153134.915.png",
+		text: "Snow Leopard",
+		style: "object-position: 0% 50%; transform: scale(1.2); transform-origin: center bottom;",
+		country: "Asia"
+	},
+	{
+		id: 35,
+		src: "https://upload.wikimedia.org/wikipedia/commons/e/e6/Red_Panda_%2824986761703%29.jpg",
+		text: "Red Panda",
+		style: "object-position: 45% 50%;",
+		country: "Asia"
+	},
+	{
+		id: 36,
+		src: "https://images.indianexpress.com/2023/08/peacock-2.jpg",
+		text: "Indian Peafowl",
+		style: "object-position: 65% 50%;",
+		country: "Asia"
+	},
+	{
+		id: 37,
+		src: "https://i.guim.co.uk/img/media/8dd76593ae3cea74441c8089aba344f13bbe17dd/0_0_5400_3243/master/5400.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=ad0bfceeadf69abca498304230595e1e",
+		text: "Red Kangaroo",
+		style: "object-position: 100% 50%; transform: scale(1.25); transform-origin: bottom right;",
+		country: "Oceania"
+	},
+	{
+		id: 38,
+		src: "https://cdn.britannica.com/26/162626-050-3534626F/Koala.jpg",
+		text: "Koala",
+		style: "object-position: 50% 40%;",
+		country: "Oceania"
+	},
+	{
+		id: 39,
+		src: "https://upload.wikimedia.org/wikipedia/commons/9/9d/Emu_1_-_Tidbinbilla.jpg",
+		text: "Emu",
+		style: "object-position: 50% 50%;",
+		country: "Oceania"
+	},
+	{
+		id: 40,
+		src: "https://www.mediastorehouse.com/p/729/platypus-ornithorhynchus-anatinus-swimming-15294100.jpg.webp",
+		text: "Platypus",
+		style: "object-position: 50% 50%;",
+		country: "Oceania"
+	},
+	{
+		id: 41,
+		src: "https://i.natgeofe.com/n/d249ca1e-b7d8-42fb-bbec-f2111472ad4f/52526335693_82c7bcc328_o.jpg",
+		text: "Kakapo",
+		style: "object-position: 95% 50%; transform: scale(1.1); transform-origin: right center;",
+		country: "Oceania"
+	},
+	{
+		id: 42,
+		src: "https://www.doc.govt.nz/globalassets/images/nature/native-animals/reptiles-and-frogs/tuatara/tuatara-stephens-island-1200-3.jpg",
+		text: "Tuatara",
+		style: "object-position: 50% 50%;",
+		country: "Oceania"
+	},
+	{
+		id: 43,
+		src: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/261443991/900",
+		text: "Cassowary",
+		style: "object-position: 30% 50%;",
+		country: "Oceania"
+	},
+	{
+		id: 44,
+		src: "https://a-z-animals.com/media/Numbat-Myrmecobius-Fasciatus.jpg",
+		text: "Numbat",
+		style: "object-position: 50% 50%;",
+		country: "Oceania"
+	}
+];

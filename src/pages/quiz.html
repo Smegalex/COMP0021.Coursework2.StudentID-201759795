@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Wildlife wonders</title>
+	<link href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+	<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="../styles/styles.css">
+	<link rel="stylesheet" href="../styles/quiz.css">
+</head>
+
+<body>
+	<table id="quiz-table">
+		<tr>
+			<th>Europe</th>
+			<th>Asia</th>
+			<th>Africa</th>
+			<th>Americas</th>
+			<th>Oceania</th>
+		</tr>
+		<tr>
+			<td class="droppable" id="r1c1"></td>
+			<td class="droppable" id="r1c2"></td>
+			<td class="droppable" id="r1c3"></td>
+			<td class="droppable" id="r1c4"></td>
+			<td class="droppable" id="r1c5"></td>
+		</tr>
+	</table>
+	<div class="animal-image_wrapper draggable">
+		<img src="https://i.guim.co.uk/img/media/89d25a3407c5270e8a106e19856599d7660f8067/320_451_6186_3713/master/6186.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=d875778e7a20ed8166b2c43dd67e082a"
+			alt="African elephant" class="animal-image"
+			style="object-position: 50% 50%; transform: scale(1.1); transform-origin: center center;">
+	</div>
+	<script src="../js/quizDragging.js"></script>
+	<script src="../js/quizProcessing.js"></script>
+</body>
+
+</html>

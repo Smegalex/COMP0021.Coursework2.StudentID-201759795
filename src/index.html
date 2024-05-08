@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+	<title>Wildlife wonders</title>
+	<link rel="stylesheet" href="styles/styles.css">
+	<link rel="icon" href="./styles/logo.png" type="image/png">
+</head>
+
+<body>
+	<div id="home_page-wrapper" class="page-wrapper">
+		<header>
+			<a href=""><img src="./styles/logo.png" alt="Logo of the deer siluette"
+					style="height: 45px; width: 45px;"></a>
+			<nav class="nav-usual">
+				<ul>
+					<li><a class="nav-el EU-nav" href="./pages/europe.html">Europe</a></li>
+					<li><a class="nav-el AS-nav" href="./pages/asia.html">Asia</a></li>
+					<li><a class="nav-el AF-nav" href="./pages/africa.html">Africa</a></li>
+					<li><a class="nav-el AM-nav" href="./pages/americas.html">Americas</a></li>
+					<li><a class="nav-el OC-nav" href="./pages/oceania.html">Oceania</a></li>
+				</ul>
+			</nav>
+
+			<input type="checkbox" id="toggle-nav" class="toggle-nav">
+			<label for="toggle-nav" class="hamburger"><img src="./styles/hamburger.png" alt="nav-hamburger"></label>
+
+			<nav class="nav-menu">
+				<ul>
+					<li><a class="nav-el EU-nav" href="./pages/europe.html">Europe</a></li>
+					<li><a class="nav-el AS-nav" href="./pages/asia.html">Asia</a></li>
+					<li><a class="nav-el AF-nav" href="./pages/africa.html">Africa</a></li>
+					<li><a class="nav-el AM-nav" href="./pages/americas.html">Americas</a></li>
+					<li><a class="nav-el OC-nav" href="./pages/oceania.html">Oceania</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="content-wrapper">
+			<div class="animal-list" id="home_animal-list">
+				<h1>Welcome to Wildlife Wonders: Exploring the World's Biodiversity</h1>
+				<p>Embark on a thrilling journey through the diverse ecosystems of our planet and discover the
+					fascinating
+					array of wildlife that call each continent home. From the majestic tigers of Asia to the iconic
+					kangaroos of Australia, our website offers a comprehensive exploration of the Earth's rich
+					biodiversity.
+				</p>
+
+				<h3>Featured Continents:</h3>
+				<ol>
+					<li><a class="EU-accent" href="./pages/europe.html">Europe</a>: Delve into
+						the enchanting landscapes of Europe and encounter
+						iconic animals such as the
+						elusive
+						Eurasian lynx, the majestic European brown bear, and the charming red fox. Learn about the
+						unique
+						adaptations and conservation efforts aimed at protecting these beloved creatures.</li>
+					<li><a class="AS-accent" href="./pages/asia.html">Asia</a>: Explore the
+						vast and varied habitats of Asia, home to
+						magnificent species like the Bengal
+						tiger,
+						the giant panda, and the elusive snow leopard. Uncover the cultural significance of these
+						animals
+						and
+						the challenges they face in the modern world.</li>
+					<li><a class="AF-accent" href="./pages/africa.html">Africa</a>: Experience
+						the wonders of the African continent, where the
+						savannas teem with life, from
+						the
+						towering African elephant to the stealthy African leopard. Discover the complex ecosystems and
+						conservation initiatives aimed at preserving Africa's iconic wildlife heritage.</li>
+					<li><a class="AM-accent" href="./pages/americas.html">Americas</a>: Venture
+						into the diverse landscapes of the Americas, where
+						you'll encounter the mighty
+						grizzly
+						bear of North America, the colorful macaws of the Amazon rainforest, and the playful sea otters
+						of
+						the
+						Pacific coast. Learn about the interconnectedness of ecosystems across the continent and the
+						importance
+						of conservation efforts.</li>
+					<li><a class="OC-accent" href="./pages/oceania.html">Oceania</a>: Immerse
+						yourself in the enchanting world of Oceania, where
+						lush rainforests are home to
+						unique
+						species like the koala, the Tasmanian devil, and the vibrant reef fish of the Great Barrier
+						Reef.
+						Explore the delicate balance of marine and terrestrial ecosystems and the ongoing efforts to
+						protect
+						Oceania's natural treasures.</li>
+				</ol>
+				<div id="table-wrapper">
+					<table>
+						<tr>
+							<th>Continent</th>
+							<th>Featured Wildlife</th>
+						</tr>
+						<tr>
+							<td>Europe</td>
+							<td>Eurasian Lynx, European Red Fox, Brown Bear, European Roe Deer, European Badger, Golden
+								Eagle, Alpine Ibex, Eurasian Wolf, Old World Swallowtail</td>
+						</tr>
+						<tr>
+							<td>Asia</td>
+							<td>Bengal Tiger, Giant Panda, Asian Elephant, Snow Leopard, Red Panda, Indian Peafowl</td>
+						</tr>
+						<tr>
+							<td>Africa</td>
+							<td>African Elephant, African Lion, African Leopard, African Buffalo, African Giraffe</td>
+						</tr>
+						<tr>
+							<td>Americas</td>
+							<td>Bald Eagle, Grizzly Bear, Raccoon, American Bison, Coyote, Mountain Lion, Jaguar, Sloth,
+								Tapir, Red-eyed Tree Frog, Red piranha, Green iguana, Toucan</td>
+						</tr>
+						<tr>
+							<td>Oceania</td>
+							<td>Red Kangaroo, Koala, Emu, Platypus, Kakapo, Tuatara, Cassowary, Numbat</td>
+						</tr>
+					</table>
+				</div>
+				<br>
+				<hr>
+				<br>
+				<form action="PUSH">
+					<h4>Submit a request to take down any copyright protected content from the website:</h4>
+					<label for="email">Enter your email: </label><input id="email" type="email"
+						placeholder="example@example.com"><br>
+					<br>
+					<label>Select all that apply:</label><br>
+					<input type="checkbox" name="no_ref" id="no_ref"><label for="no_ref">My image is used without
+						reference.</label><br>
+					<input type="checkbox" name="bad_qual" id="no_qual"><label for="no_qual">My image is not used
+						appropriately
+						and/or misrepresents my skills.</label><br>
+					<br>
+					<br>
+					<label>Do you want your photo removed?</label><br>
+					<input type="radio" name="remove" id="removed"><label for="removed">I want my photo/work be
+						removed.</label><br>
+					<input type="radio" name="leave" id="leave"><label for="leave">I am fine with the use of my work,
+						however
+						I want my requirements be satisfied.</label><br>
+					<br>
+					<label for="comments">Any comments?</label><br>
+					<textarea name="comment" id="comments" cols="30" rows="10"></textarea><br>
+
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+
+		<label for="popup-toggle" class="popup-toggle-label">
+			<img src="./styles/arrow-up-sign-to-navigate.png" alt="Open Popup">
+		</label>
+		<input type="checkbox" id="popup-toggle" class="popup-toggle">
+
+		<div id="popup" class="popup-container">
+			<label for="popup-toggle" class="popup-close"><img src="./styles/arrow-down-sign-to-navigate.png"
+					alt="Open Popup"></label>
+			<div class="popup-content">
+				<p>All images used on the website are from open access sources on the internet. <br>
+					If you want your picture beeing removed, you can fill in the form at the <a
+						style="color: var(--dark-text-accent-color);" href="">main page</a><br>
+					Logo is from <a style="color: var(--dark-text-accent-color);"
+						href="https://www.freepik.com/">Freepik</a>.
+					Some icons are from <a style="color: var(--dark-text-accent-color);"
+						href="https://www.flaticon.com/">Flaticon</a>.
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
