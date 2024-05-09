@@ -43,7 +43,6 @@ tbody {
 
 tr {
 	width: 100%;
-	
 }
 
 tr:has(.droppable) {
@@ -69,23 +68,39 @@ tr:has(.droppable) {
 	height: 175px;
 }
 
-.draggable{
+.draggable {
 	z-index: 1;
 }
 
-#submitQuizForm{
+#submitQuizForm {
 	display: none;
 	border: none;
 	border-radius: 0;
 	width: 100%;
 	text-align: center;
 }
-#score{
+#score {
 	display: none;
 }
-.correct{
+.correct {
 	border-inline: 5px solid rgb(0, 208, 35);
 }
-.incorrect{
+.incorrect {
 	border-inline: 5px solid rgb(255, 0, 0);
+}
+#not-supported {
+	display: none;
+	color: rgb(39, 0, 52);
+	text-shadow: 0 0 4px #9c00e5;
+	padding: 10px;
+}
+
+/* phone */
+@media only screen and (max-width: 768px) {
+	#not-supported {
+		display: block;
+	}
+	#quiz_animal-list {
+		display: none;
+	}
 }

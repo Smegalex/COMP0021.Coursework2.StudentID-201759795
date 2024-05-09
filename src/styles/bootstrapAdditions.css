@@ -1,0 +1,28 @@
+@media only screen and (max-width: 768px) {
+	header {
+        width: 100%;
+        padding: 0 20px;
+        justify-content: space-between;
+    }
+	html{
+		overflow: hidden;
+	}
+	.animal-list {
+		width: 100%;
+		padding: 20px 30px;
+	}
+
+	.animal-list::after {
+		background: rgba(55, 55, 55, 0.3);
+		mask: linear-gradient(to right, black, black);
+		backdrop-filter: blur(10px);
+	}
+
+	.image{
+		overflow: hidden;
+	}
+}
+
+.AS-nav:hover{
+	cursor: pointer;
+}

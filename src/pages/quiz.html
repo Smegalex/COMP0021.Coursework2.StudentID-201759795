@@ -3,8 +3,9 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 	<title>Wildlife wonders</title>
+
 	<link href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
 	<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 	<script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
@@ -25,6 +26,7 @@
 					<li><a class="nav-el AF-nav" href="./africa.html">Africa</a></li>
 					<li><a class="nav-el AM-nav" href="./americas.html">Americas</a></li>
 					<li><a class="nav-el OC-nav" href="./oceania.html">Oceania</a></li>
+					<li><a class="current-nav QZ-nav" href="./quiz.html">Quiz</a></li>
 				</ul>
 			</nav>
 
@@ -38,11 +40,13 @@
 					<li><a class="nav-el AF-nav" href="./africa.html">Africa</a></li>
 					<li><a class="nav-el AM-nav" href="./americas.html">Americas</a></li>
 					<li><a class="nav-el OC-nav" href="./oceania.html">Oceania</a></li>
+					<li><a class="current-nav QZ-nav" href="./quiz.html">Quiz</a></li>
 				</ul>
 			</nav>
 		</header>
 		<div class="content-wrapper">
-			<div class="animal-list" id="quiz_animal-list"> 
+			<h1 id="not-supported">Unfortunately, this page is currently not supported for your device.</h1>
+			<div class="animal-list" id="quiz_animal-list">
 				<h1>Wildlife quiz</h1>
 				<p>On this page you can challenge yourself and check if you did learn the information about animals
 					around
@@ -97,7 +101,8 @@
 				<p style="font-size: 20px;" id="score">Your score is: </p>
 			</div>
 		</div>
-	</div>	
+	</div>
+
 	<script src="../js/quizDragging.js"></script>
 	<script type="module" src="../js/quizProcessing.js"></script>
 	<script type="module" src="../js/validateForm.js"></script>
