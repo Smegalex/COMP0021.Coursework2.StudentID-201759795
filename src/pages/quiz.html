@@ -7,35 +7,100 @@
 	<title>Wildlife wonders</title>
 	<link href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
 	<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
-	<script src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
 	<link rel="stylesheet" href="../styles/styles.css">
 	<link rel="stylesheet" href="../styles/quiz.css">
+	<link rel="icon" href="../styles/logo.png" type="image/png">
 </head>
 
 <body>
-	<table id="quiz-table">
-		<tr>
-			<th>Europe</th>
-			<th>Asia</th>
-			<th>Africa</th>
-			<th>Americas</th>
-			<th>Oceania</th>
-		</tr>
-		<tr>
-			<td class="droppable" id="r1c1"></td>
-			<td class="droppable" id="r1c2"></td>
-			<td class="droppable" id="r1c3"></td>
-			<td class="droppable" id="r1c4"></td>
-			<td class="droppable" id="r1c5"></td>
-		</tr>
-	</table>
-	<div class="animal-image_wrapper draggable">
-		<img src="https://i.guim.co.uk/img/media/89d25a3407c5270e8a106e19856599d7660f8067/320_451_6186_3713/master/6186.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=d875778e7a20ed8166b2c43dd67e082a"
-			alt="African elephant" class="animal-image"
-			style="object-position: 50% 50%; transform: scale(1.1); transform-origin: center center;">
-	</div>
+	<div id="quiz_page-wrapper" class="page-wrapper">
+		<header>
+			<a href="../index.html"><img src="../styles/logo.png" alt="Logo of the deer siluette"
+					style="height: 45px; width: 45px;"></a>
+			<nav class="nav-usual">
+				<ul>
+					<li><a class="nav-el EU-nav" href="./europe.html">Europe</a></li>
+					<li><a class="nav-el AS-nav" href="./asia.html">Asia</a></li>
+					<li><a class="nav-el AF-nav" href="./africa.html">Africa</a></li>
+					<li><a class="nav-el AM-nav" href="./americas.html">Americas</a></li>
+					<li><a class="nav-el OC-nav" href="./oceania.html">Oceania</a></li>
+				</ul>
+			</nav>
+
+			<input type="checkbox" id="toggle-nav" class="toggle-nav">
+			<label for="toggle-nav" class="hamburger"><img src="../styles/hamburger.png" alt="nav-hamburger"></label>
+
+			<nav class="nav-menu">
+				<ul>
+					<li><a class="nav-el EU-nav" href="./europe.html">Europe</a></li>
+					<li><a class="nav-el AS-nav" href="./asia.html">Asia</a></li>
+					<li><a class="nav-el AF-nav" href="./africa.html">Africa</a></li>
+					<li><a class="nav-el AM-nav" href="./americas.html">Americas</a></li>
+					<li><a class="nav-el OC-nav" href="./oceania.html">Oceania</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="content-wrapper">
+			<div class="animal-list" id="quiz_animal-list"> 
+				<h1>Wildlife quiz</h1>
+				<p>On this page you can challenge yourself and check if you did learn the information about animals
+					around
+					the
+					world
+					from this website.</p>
+				<h2 id="highscore"></h2>
+
+
+				<div id="form-wrapper">
+					<h3>To start the quiz, please, fill out a quick form:</h3>
+					<form name="quizForm">
+						<label for="name">Enter your name*: </label><input name="name" id="name" type="text">
+						<br>
+						<br>
+
+						<label for="email">Enter your email*: </label><input name="email" id="email" type="email"
+							placeholder="example@example.com"><br>
+						<br>
+						<label for="animalNum">Enter number of animals you want to try and <br>sort between
+							continents.*:
+						</label><input name="animalNum" id="animalNum" type="text" placeholder="5"><br>
+						<br>
+						<label style="font-size: 10px;">* indicates the required field</label>
+						<br>
+						<input type="submit" id="submit" value="Submit">
+					</form>
+				</div>
+				<div id="quiz-wrapper">
+					<table id="quiz-table">
+						<tr id="quiz-heading">
+							<th class="EU-accent">Europe</th>
+							<th class="AS-accent">Asia</th>
+							<th class="AF-accent">Africa</th>
+							<th class="AM-accent">Americas</th>
+							<th class="OC-accent">Oceania</th>
+						</tr>
+						<tr>
+							<td class="droppable" id="c1"></td>
+							<td class="droppable" id="c2"></td>
+							<td class="droppable" id="c3"></td>
+							<td class="droppable" id="c4"></td>
+							<td class="droppable" id="c5"></td>
+						</tr>
+					</table>
+					<div id="animal-start-position" class="droppable">
+					</div>
+				</div>
+				<form name="submitQuiz" id="submitQuizForm">
+					<input type="submit" value="Submit quiz!">
+				</form>
+				<p style="font-size: 20px;" id="score">Your score is: </p>
+			</div>
+		</div>
+	</div>	
 	<script src="../js/quizDragging.js"></script>
-	<script src="../js/quizProcessing.js"></script>
+	<script type="module" src="../js/quizProcessing.js"></script>
+	<script type="module" src="../js/validateForm.js"></script>
 </body>
 
 </html>

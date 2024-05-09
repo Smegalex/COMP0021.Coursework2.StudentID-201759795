@@ -1,3 +1,4 @@
+console.log("dragging");
 $(function () {
 	$(".draggable").draggable();
 	$(".droppable").droppable({

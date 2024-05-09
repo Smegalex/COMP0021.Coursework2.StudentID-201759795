@@ -1,9 +1,91 @@
-tr:has(.droppable){
-	height: 200px;
-	width: 100%;
-}
-.droppable{
-	min-width: 200px;
-	min-height: 200px;
+#quiz_page-wrapper {
+	background-image: url(https://images2.alphacoders.com/462/462813.jpg);
 }
 
+#quiz-heading {
+	text-shadow: 0 0 3px rgba(0, 0, 0, 0.86);
+}
+
+#form-wrapper {
+	margin-top: 30px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+form {
+	width: fit-content;
+	margin-top: 20px;
+	border: 2px solid white;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#animalNum {
+	max-width: 50px;
+}
+
+#quiz-wrapper {
+	display: none;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+}
+
+table {
+	width: 100%;
+}
+
+tbody {
+	width: 100%;
+}
+
+tr {
+	width: 100%;
+	
+}
+
+tr:has(.droppable) {
+	height: 50px;
+}
+
+.droppable {
+	width: 20%;
+	min-height: 50px;
+	text-align: center;
+}
+
+#animal-start-position {
+	width: 100%;
+	min-height: 20%;
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	overflow-x: auto;
+}
+.animal-image_wrapper {
+	width: 175px;
+	height: 175px;
+}
+
+.draggable{
+	z-index: 1;
+}
+
+#submitQuizForm{
+	display: none;
+	border: none;
+	border-radius: 0;
+	width: 100%;
+	text-align: center;
+}
+#score{
+	display: none;
+}
+.correct{
+	border-inline: 5px solid rgb(0, 208, 35);
+}
+.incorrect{
+	border-inline: 5px solid rgb(255, 0, 0);
+}
